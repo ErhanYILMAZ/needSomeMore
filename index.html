@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<script src="https://developer.relayr.io/relayr-browser-sdk.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Internet of Needs</title>
+	
+	
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	<link href="css/switch.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"/>
+                    <span class="icon-bar"/>
+                    <span class="icon-bar"/>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Need some more?</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Sugar</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Jars</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#cases">Use Cases</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#services">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 font-size="400px" >Need some more?</h1>
+                    <a class="btn btn-default page-scroll" href="#about">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sugar Section -->
+    <section id="about" class="sugar-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Sugar</h1>
+					<img src="images/sugar.png" alt="Sugar" style="width:475px;height:640px;" align="left"> 
+					<p style="position: absolute; top:85px; left:865px;"><strong>Buy Automatically:</strong></p>
+					<div class="onoffswitch" style="position: absolute; top:80px; left:1000px;">
+						<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="sugaronoff" checked>
+						<label class="onoffswitch-label" for="sugaronoff">
+							<span class="onoffswitch-inner"/>
+							<span class="onoffswitch-switch"/>
+						</label>
+					</div>
+					<table style="position: absolute; top:200px; left:700px;" font-size="18px">
+						<tr><td><input type="checkbox" name="product" value="XC232">
+						 <th style="color:blue; font-size:20px;">PENNY</th> <td>PENNY</td> <td align="right"><tt>0.65€</tt></td></tr>
+						<tr><td><input type="checkbox" name="product" value="DF345">
+						 <th style="color:blue; font-size:20px;">REWE</th> <td>ja! Raffinade</td> <td align="right"><tt>0.65€</tt></td></tr>
+						<tr><td><input type="checkbox" name="product" value="WE320">
+						 <th style="color:blue; font-size:20px;">NAHKAUF</th> <td>Rewe</td> <td align="right"><tt>0.65€</tt></td></tr>
+					</table>
+					<div id="g" style="position: absolute; top:400px; left:650px; width:400px; height:320px" />
+					
+					
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Jars</h1>					
+					<h3>Size matters!</h3>
+					<img src="images/gray.png" alt="Small"  style="position: absolute; top:400px; left:164px; width:156px;height:256px;" align="left"> 
+					<img src="images/blue.png" alt="Middle" style="position: absolute; top:340px; left:450px; width:208px;height:320px;" align="center"> 
+					<img src="images/red.png"  alt="Big"    style="position: absolute; top:250px; left:800px; width:275px;height:427px;" align="right"> 
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section id="cases" class="cases-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">				
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Rice Section -->
+    <section id="services" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About US</h1>
+					<img src="images/zafar.jpg" alt="Rice"  style="position: absolute; top:150px; left:100px;width:300px;height:300px;" align="left"> 
+					<img src="images/olzhas.jpg" alt="Rice" style="position: absolute; top:150px; left:450px;width:300px;height:300px;" align="center"> 
+					<img src="images/erhan.jpg" alt="Rice"  style="position: absolute; top:150px; left:800px;width:300px;height:300px;" align="right"> 
+					
+					<p style="position: absolute; top:500px; left:155px; font-size:28px;"><strong>Zafar Sharipov</strong></p>					
+					<p style="position: absolute; top:500px; left:515px; font-size:28px;"><strong>Olzhas Askar</strong></p>					
+					<p style="position: absolute; top:500px; left:865px; font-size:28px;"><strong>Erhan Yılmaz</strong></p>					
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+	
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/raphael-2.1.4.min.js"></script>
+    <script src="js/justgage-1.1.0.min.js"></script>
+	
+	<script>
+
+  
+  
+var relayr = RELAYR.init({
+  appId: "5c4411cc-a70d-4240-9f96-184e90979ae7CLIENT ID"
+});
+
+var counter=0;
+//If you have a token and your device ID, you can start listening to your device without going through the login process
+relayr.devices().getDeviceData({
+  token: "zIKVEafr57S1WvZHkRYlDzNM5jhOqOT4",
+  deviceId:"258d08d3-9a4e-465c-80c3-bd1b5c4a6178",
+  incomingData: function(data){
+    console.log("data from device", data)	
+	g.refresh(data.readings[2].value/20.47);
+	if(data.readings[2].value<300)
+	{
+		counter++;
+		if(counter>20)
+		{
+			counter=0;
+			window.alert("Oh, no! Sugar is about to finish...");
+			sendTheMail();
+		}
+	}
+	else
+	{
+		counter=0;
+	}
+	document.getElementById('demo').innerHTML = data.readings[2].meaning+":"+data.readings[2].value+" Counter:"+counter;
+	
+  }
+}); 
+
+</script>
+<script>
+		var g = new JustGage({
+		id: "g",
+		value: 50,
+		min: 0,
+		max: 100,
+		title: "Amount of Sugar"
+		});
+	</script>
+
+</body>
+
+</html>
+
+
